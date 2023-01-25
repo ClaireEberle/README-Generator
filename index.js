@@ -56,8 +56,6 @@ inquirer.prompt([
 const writeREADME = (response) => {
     return `# ${response.projectname}
 
-    
-    
     ## Description
     
     ${response.description}

@@ -1,25 +1,23 @@
-# pp
+# README-Generator
 
-    
-    
     ## Description
     
-    ll
+    This project was created using JavaScript and Node.js to create a README file by using inquirer, following promts for each section, in order to generate a functional README file  through  the  terminal. 
     
-    GitHub repository: ll
-    Site Link: ll
+    GitHub repository: https://github.com/ClaireEberle/README-Generator
+    Site Link: N/A
     
     ## Installation
     
-    ll
+    To use this project, you must install inquirer      8.2.4
     
     ## Usage
     
-    use it
+    to use this program, use the index.js file to follow the prompts in the console toenter the description, title, and details of your project. 
 
     ## Credits
     
-   me
+   N/A
     
     ## License
     
