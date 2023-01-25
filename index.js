@@ -14,24 +14,34 @@ inquirer.prompt([
         message: "Write a description for your README file:",
         name: "description"
     },
+    {
+        type: "input",
+        message: "Enter your GitHub username:",
+        name: "GitHubUser"
+    },
      {
         type: "input",
-        message: "Enter your GitHub repository link:",
+        message: "Enter your GitHub profile link:",
         name: "GitHubLink"
     },
      {
         type: "input",
-        message: "Enter your site URL:",
-        name: "siteLink"
+        message: "Enter your email:",
+        name: "email"
     },
     {
         type: "input",
-        message: "Describe the installation for your program (if none enter N/A):",
+        message: "Describe the installation for your project (if none enter N/A):",
         name: "installation"
     },
      {
         type: "input",
-        message: "Describe how to use your site:",
+        message: "Describe how to use your project:",
+        name: "usage"
+    },
+    {
+        type: "input",
+        message: "What are the contribution guidelines for this project:",
         name: "usage"
     },
      {
@@ -56,28 +66,46 @@ inquirer.prompt([
 const writeREADME = (response) => {
     return `# ${response.projectname}
 
-    ## Description
+## Description
     
-    ${response.description}
-    
-    GitHub repository: ${response.GitHubLink}
-    Site Link: ${response.siteLink}
-    
-    ## Installation
-    
-    ${response.installation}
-    
-    ## Usage
-    
-    ${response.usage}
+${response.description}
 
-    ## Credits
+## License
     
-   ${response.credits}
+![NPM](https://img.shields.io/npm/l/${response.npmlicense})
     
-    ## License
+## Table of Contents
+   
+- [Installation] (#installation)
+- [Usage] (#usage)
+- [Contribution] (#contribution)
+- [Credits] (#credits)
+- [Questions] (#questions)
+
     
-    ![NPM](https://img.shields.io/npm/l/${response.npmlicense})
+## Installation
+    
+ ${response.installation}
+    
+ ## Usage
+    
+${response.usage}
+
+## Contribution Guidelines
+
+${response.contribute}
+
+ ## Credits
+    
+${response.credits}
+
+## Questions
+${response.GitHubUser} : ${response.GitHubLink}
+
+You may email me at ${response.email} with any additional questions you may have.
+   
+    
+
     `
 }
 promptQs();
