@@ -4,22 +4,22 @@
     
     ## Description
     
-    described
+    fff
     
-    GitHub repository: vvv
+    GitHub repository: fff
     Site Link: eee
     
     ## Installation
     
-    install it
+    na
     
     ## Usage
     
-    undefined
+    use
 
     ## Credits
     
-   these credits
+   credit
     
     ## License
     
