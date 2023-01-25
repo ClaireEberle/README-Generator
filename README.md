@@ -16,11 +16,11 @@ This project was created using JavaScript and node.js in order for the user to c
     
 ## Table of Contents
    
-- [Installation] (#installation)
-- [Usage] (#usage)
-- [Contribution] (#contribution)
-- [Credits] (#credits)
-- [Questions] (#questions)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution-Guidelines](#contribution-guidelines)
+- [Credits](#credits)
+- [Questions](#questions)
 
     
 ## Installation
@@ -31,7 +31,7 @@ This project was created using JavaScript and node.js in order for the user to c
     
 To use this project, the user may download the index.js file, and install node.js, as well as the npm package inquirer@8.2.4. Then the user can open the terminal command line and enter 'node index.js'. from there the user will answer a series of prompts in order to generate a proffesional README file in the Output folder.
 
-## Contribution Guidelines
+## Contribution-Guidelines
 
 undefined
 

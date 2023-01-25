@@ -42,7 +42,7 @@ inquirer.prompt([
     {
         type: "input",
         message: "What are the contribution guidelines for this project:",
-        name: "usage"
+        name: "contribute"
     },
      {
         type: "input",
