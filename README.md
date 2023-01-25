@@ -1,12 +1,12 @@
 # README-Generator
 
-
-
-https://user-images.githubusercontent.com/116858582/214623394-1e44e1ef-4d4b-466d-b06f-47de3e5fa49e.mov
-
-
-
 ## Description
+
+
+
+https://user-images.githubusercontent.com/116858582/214629276-4eabe51e-68ae-4fb1-a02d-58a06c2e4901.mov
+
+
     
 This project was created using JavaScript and node.js in order for the user to create README files easily by following a series of prompts in the terminal.
 
