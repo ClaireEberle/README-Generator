@@ -76,11 +76,11 @@ ${response.description}
     
 ## Table of Contents
    
-- [Installation] (#installation)
-- [Usage] (#usage)
-- [Contribution] (#contribution)
-- [Credits] (#credits)
-- [Questions] (#questions)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution-Guidelines](#contribution-guidelines)
+- [Credits](#credits)
+- [Questions](#questions)
 
     
 ## Installation
@@ -91,7 +91,7 @@ ${response.description}
     
 ${response.usage}
 
-## Contribution Guidelines
+## Contribution-Guidelines
 
 ${response.contribute}
 
